@@ -1,5 +1,17 @@
-@import '~bootstrap/dist/css/bootstrap.min.css';
-
 .hero {
     position: relative;
+    padding-top: 280px;
+    padding-bottom: 140px;
+
+    .title {
+        position: relative;
+        font-weight: bold;
+        font-size: 74px;
+    }
+
+    .subtitle {
+        position: relative;
+        padding-top: 10px;
+        font-size: 32px;
+    }
 }
