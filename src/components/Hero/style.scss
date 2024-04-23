@@ -2,8 +2,33 @@
     position: relative;
     padding-top: 280px;
     padding-bottom: 140px;
+    background-color: #000;
+    color: #FFF;
+
+    .hero-image {
+        border-radius: 25px;
+        border: 5px dashed #EEE;
+        padding: 2px;
+        position: relative;
+        width: 124px;
+        height: 124px;
+        border-radius: 124px;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+
+    .bold {
+        position: relative;
+        font-weight: bold;
+    }
+
+    span {
+        position: relative;
+        font-weight: bold;
+    }
 
     .title {
+        color: #51478c;
         position: relative;
         font-weight: bold;
         font-size: 74px;
@@ -13,5 +38,36 @@
         position: relative;
         padding-top: 10px;
         font-size: 32px;
+    }
+
+    .social-block {
+        position: fixed;
+        background-color: #0f0f0f;
+        border: 1px solid #0f0f0f;
+        width: 200px;
+        height: 267px;
+
+        i {
+            top: 45%;
+            left: 50%;
+            font-size: 50px;
+            position: relative;
+            color: #999;
+        }
+    }
+
+    .facebook {
+        top: 0px;
+        right: 0px;
+    }
+
+    .instagram {
+        top: 270px;
+        right: 0px;
+    }
+
+    .discord {
+        top: 540px;
+        right: 0px;
     }
 }
