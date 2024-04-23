@@ -27,7 +27,7 @@ const Hero = () => {
                         </div>
                     </a>
 
-                    <a href='https://instagra.com/fronteiratechsb'>
+                    <a href='https://discord.gg/TzJj4MYXnK'>
                         <div className="social-block discord">
                             <i class="fa-brands fa-discord"></i>
                         </div>
