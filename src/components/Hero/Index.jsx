@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default React.memo(Hero);
